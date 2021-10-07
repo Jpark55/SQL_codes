@@ -1,3 +1,13 @@
+/*
+ST = loan info
+BWL = broker watch list tags
+audit = qc audit clear dates 
+VOE = all 3 voe status fields
+VOD = all 3 vod status fields
+bwdr = Broker Watch Date and Reason
+fp = files with pfqc/verifications pass
+*/
+
 
 SELECT  'WS' as CH
 		,[BL].[Name]
