@@ -1,4 +1,9 @@
 /*
+using below CTEs to create a table of broker's that are on the watch list. 
+counts the number of loan per broker that funded / audited. 
+lists loans that are audites to ensure accuracy and also flags when broker pipeline should be reviewed to remove from broker watch list
+
+
 ST = loan info
 BWL = broker watch list tags
 audit = qc audit clear dates 
