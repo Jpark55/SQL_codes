@@ -1,6 +1,6 @@
 # SQL_codes
 
-Here are some SQL queries I've created over the years to help with by job function. 
+Here are some SQL queries I've created over the years to help with by previous job functions. 
 
 Reports created due to limitations of default report builder in BytePro.  
 Two instances were created causing some issues/confusion when trying to get data.  
