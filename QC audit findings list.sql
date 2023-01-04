@@ -1,8 +1,3 @@
-/*
-list all qc specific audit findings across two servers. 
-to be used for further peformance evaluation
-*/
-
 declare @startdate date; 
 declare @enddate   date; 
 --set @enddate = case when datepart(day,getdate()) = 1 then DATEADD(MONTH, DATEDIFF(MONTH, -1, GETDATE())-1, -1) else (dateadd(day, -1, getdate())) end;
