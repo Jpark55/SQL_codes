@@ -1,11 +1,15 @@
 # SQL_codes
 
-Reports created due to limitations of default report builder in BytePro.
+Here are some SQL queries I've created over the years to help with by job function. 
+
+Reports created due to limitations of default report builder in BytePro.  
+Two instances were created causing some issues/confusion when trying to get data.  
+Some fields were used differently while some data had different names.
 
 Temp tables used due to data spread out in multiple tables.  
 Custom fields created in BytePro are grouped in two ways
 - a *CustomFields* table which only holds a limited number of entries regardless of data type.
-- *Extended**data**Value* tables by data type
+- *Extended**(DATA)**Value* tables by data type
 
 ---
 
