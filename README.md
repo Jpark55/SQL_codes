@@ -13,14 +13,23 @@ Custom fields created in BytePro are grouped in two ways
 
 ---
 
-### Broker watch list.sql
+### missing license.sql
+- one of my first queries in 2019 to search for missing license info.
+- data input of license was not standardized so many missing and incorrect inputs.
+- a few varieties of the query was used to locate all incorrect data. 
 
-- report created to track broker watch list on two data servers. 
-- counts loans funded / audited
-- flags when the required number of loans have been audited (5/10 files)
-- audited loans are listed at the end to ensure data accuracy. 
+### tsk_counts.sql
+- a temporary table used until new employees became familiar with the task naming schema
 
 ### QC audit findings list.sql
 
 - report created as summary of all qc audit findings on two data servers.
 - to be used a part of performance evaulation of underwriters/loan programs
+
+### Broker watch list.sql
+
+- report created to track broker watch list on two data servers. 
+- counts loans funded / audited.
+- flags when the required number of loans have been audited (5/10 files).
+- audited loans are listed on the far right the end to ensure data accuracy and re-review for removal from watch list.
+
