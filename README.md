@@ -3,7 +3,9 @@
 Reports created due to limitations of default report builder in BytePro.
 
 Temp tables used due to data spread out in multiple tables.  
-Custom fields created in Byte are grouped into a few tables by data type. 
+Custom fields created in BytePro are grouped in two ways
+- a *CustomFields* table which only holds a limited number of entries regardless of data type.
+- *Extended**data**Value* tables by data type
 
 ---
 
