@@ -2,7 +2,7 @@
 
 Reports created due to limitations of default report builder in BytePro.
 
-Temp tables used due to data spread out in multiple tables. 
+Temp tables used due to data spread out in multiple tables.  
 Custom fields created in Byte are grouped into a few tables by data type. 
 
 ---
